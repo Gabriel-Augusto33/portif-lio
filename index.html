@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Augusto | Portfólio Frontend - Canes Solution</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarPrincipal">
+
+    <!-- Barra de Navegação Superior -->
+    <nav id="navbarPrincipal" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" href="#inicio">
+                <i class="bi bi-code-slash text-primary"></i> Gabriel.dev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#apresentacao">Apresentação</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#conhecimento">Áreas do Saber</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tendencias">Tendências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Seção de Apresentação Pessoal -->
+    <header id="inicio" class="hero-section text-center">
+        <div class="container" id="apresentacao">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&q=80" 
+                         alt="Foto de Gabriel Augusto" 
+                         class="rounded-circle shadow profile-avatar mb-4">
+                    <h1 class="display-5 fw-bold text-white mb-2">Gabriel Augusto</h1>
+                    <p class="h5 text-primary-emphasis mb-3">Desenvolvedor Frontend & Estudante do Ensino Médio Técnico</p>
+                    <p class="lead text-light-50 mb-4 mx-auto" style="max-width: 650px;">
+                        Apaixonado por criar interfaces web acessíveis, dinâmicas e fluidas. Focado em resolver problemas através do código com boas práticas, empatia pelo usuário e constante aprendizado.
+                    </p>
+
+                    <!-- Habilidades Técnicas (Hard Skills) -->
+                    <div class="mb-4">
+                        <h6 class="text-uppercase text-secondary fw-bold mb-2 small">Hard Skills</h6>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-filetype-html"></i> HTML5 Semântico</span>
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-filetype-css"></i> CSS3 & Flexbox/Grid</span>
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-bootstrap"></i> Bootstrap 5</span>
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-filetype-js"></i> JavaScript (ES6+)</span>
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-database"></i> LocalStorage API</span>
+                            <span class="badge bg-primary badge-skill"><i class="bi bi-git"></i> Git & GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Habilidades Comportamentais (Soft Skills) -->
+                    <div>
+                        <h6 class="text-uppercase text-secondary fw-bold mb-2 small">Soft Skills</h6>
+                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                            <span class="badge bg-secondary badge-skill">Comunicação Clara</span>
+                            <span class="badge bg-secondary badge-skill">Trabalho em Equipe</span>
+                            <span class="badge bg-secondary badge-skill">Resolução de Problemas</span>
+                            <span class="badge bg-secondary badge-skill">Adaptabilidade</span>
+                            <span class="badge bg-secondary badge-skill">Atenção a Detalhes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Seção Áreas do Conhecimento (4 Áreas) -->
+    <section id="conhecimento" class="bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-2">Fundamentação Acadêmica</span>
+                <h2 class="fw-bold">Áreas do Conhecimento & Lógica de Programação</h2>
+                <p class="text-muted">Como as quatro grandes áreas do Ensino Médio integraram e fortaleceram minha capacidade analítica como desenvolvedor.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- 1. Ciências Humanas -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="text-primary fs-1 mb-3"><i class="bi bi-people"></i></div>
+                            <h5 class="card-title fw-bold">Ciências Humanas</h5>
+                            <p class="card-text text-muted small">
+                                O estudo de História, Geografia e Filosofia me proporcionou pensamento crítico e empatia para entender as necessidades reais das pessoas. Isso reflete diretamente na construção de interfaces centradas no usuário (UX) e na criação de softwares acessíveis para toda a sociedade.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Ciências da Natureza -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="text-success fs-1 mb-3"><i class="bi bi-tree"></i></div>
+                            <h5 class="card-title fw-bold">Ciências da Natureza</h5>
+                            <p class="card-text text-muted small">
+                                Física, Química e Biologia consolidaram o método científico: observação de fenômenos, formulação de hipóteses e realização de testes empíricos. Essa mesma disciplina é aplicada diariamente ao investigar bugs, depurar código e entender causa e efeito no fluxo de dados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Matemática -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="text-danger fs-1 mb-3"><i class="bi bi-calculator"></i></div>
+                            <h5 class="card-title fw-bold">Matemática</h5>
+                            <p class="card-text text-muted small">
+                                A espinha dorsal da lógica de programação. Álgebra booleana, conjuntos, funções e raciocínio indutivo permitiram entender estruturas condicionais, laços de repetição, complexidade de algoritmos e a manipulação matemática de coleções e arrays de forma otimizada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Linguagens -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="text-warning fs-1 mb-3"><i class="bi bi-chat-left-quote"></i></div>
+                            <h5 class="card-title fw-bold">Linguagens</h5>
+                            <p class="card-text text-muted small">
+                                Língua Portuguesa e Inglesa me ensinaram que sintaxe e semântica são inseparáveis. Código limpo precisa ser legível tanto para computadores quanto para seres humanos. Além disso, a fluência em leitura técnica facilita a documentação e a cooperação em times de software.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Seção Tendências Tecnológicas (4 Tópicos) -->
+    <section id="tendencias">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-secondary-subtle text-secondary border px-3 py-2 mb-2">Visão de Futuro</span>
+                <h2 class="fw-bold">Tendências Tecnológicas</h2>
+                <p class="text-muted">Análises técnicas das transformações digitais que moldam o mercado de engenharia de software.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- 1. Cibersegurança -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-shield-check text-primary fs-2 me-3"></i>
+                                <h5 class="card-title fw-bold mb-0">Cibersegurança e Proteção de Dados</h5>
+                            </div>
+                            <p class="text-muted small">
+                                Com o avanço das ameaças digitais e leis rigorosas como a LGPD, a segurança deixou de ser um anexo para ser o núcleo do desenvolvimento (Security by Design). No desenvolvimento web moderno, práticas como sanitização de entradas, uso de HTTPS, mitigação de vulnerabilidades OWASP (como XSS, CSRF e SQL Injection) e hash forte de credenciais são requisitos mandatórios para proteger a identidade e os dados dos usuários.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Blockchain -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-link-45deg text-success fs-2 me-3"></i>
+                                <h5 class="card-title fw-bold mb-0">Blockchain e Descentralização</h5>
+                            </div>
+                            <p class="text-muted small">
+                                Mais do que moedas digitais, a tecnologia de livro-razão distribuído (Distributed Ledger) garante imutabilidade, transparência e rastreabilidade confiável sem depender de uma entidade central. Por meio de contratos inteligentes (Smart Contracts), o ecossistema Web3 redefine a autenticação, a custódia de ativos digitais e a governança em cadeias de suprimentos globais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Automação e Robótica -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-robot text-danger fs-2 me-3"></i>
+                                <h5 class="card-title fw-bold mb-0">Automação de Processos & Robótica</h5>
+                            </div>
+                            <p class="text-muted small">
+                                A automação via Robotic Process Automation (RPA) e pipelines contínuos (CI/CD) elimina tarefas repetitivas e minimiza erros operacionais. Na engenharia de software, automações integram formulários, notificam canais de atendimento e realizam deploys autônomos, liberando os desenvolvedores para focar no design de experiências e na inovação de produto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Edge Computing -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm feature-card p-3">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-hdd-network text-warning fs-2 me-3"></i>
+                                <h5 class="card-title fw-bold mb-0">Edge Computing (Computação em Borda)</h5>
+                            </div>
+                            <p class="text-muted small">
+                                Em vez de enviar todos os dados para servidores em nuvem distantes, a computação de borda processa as informações o mais próximo possível do dispositivo do usuário. Isso resulta em latência ultrabaixa, economia massiva de largura de banda e capacidade de operação offline, aspectos essenciais para aplicações ricas em JavaScript, cidades inteligentes e Internet das Coisas (IoT).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Seção Galeria de Projetos -->
+    <section id="projetos" class="bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <span class="badge bg-success-subtle text-success border border-success-subtle px-3 py-2 mb-2">Trabalhos Realizados</span>
+                <h2 class="fw-bold">Galeria de Projetos de TI</h2>
+                <p class="text-muted">Projetos práticos concebidos durante o curso técnico integrando conceitos de Frontend e Backend.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Projeto 1: E-commerce TechStore -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="card h-100 border-0 shadow-sm feature-card overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&q=80" class="card-img-top" alt="Loja Virtual" style="height: 220px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="mb-2">
+                                <span class="badge bg-primary">Full-Stack</span>
+                                <span class="badge bg-dark">PHP & MySQL</span>
+                                <span class="badge bg-secondary">Bootstrap 5</span>
+                            </div>
+                            <h4 class="card-title fw-bold">E-commerce TechStore</h4>
+                            <p class="card-text text-muted small flex-grow-1">
+                                Sistema de comércio eletrônico completo com fluxo ponta a ponta: catálogo dinâmico filtrável, carrinho persistido em sessão com verificação de estoque, autenticação segura com password_hash, simulação de checkout e painel administrativo para gestão de vendas e produtos.
+                            </p>
+                            <div class="mt-3 pt-3 border-top d-flex gap-2">
+                                <a href="https://github.com/Gabriel-Augusto33/trabalho-ecommerce" target="_blank" class="btn btn-outline-dark btn-sm w-100">
+                                    <i class="bi bi-github"></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: Portfólio Canes Solution -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="card h-100 border-0 shadow-sm feature-card overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" class="card-img-top" alt="Portfólio Web" style="height: 220px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column p-4">
+                            <div class="mb-2">
+                                <span class="badge bg-info text-dark">Frontend</span>
+                                <span class="badge bg-warning text-dark">JavaScript Puro</span>
+                                <span class="badge bg-dark">LocalStorage API</span>
+                            </div>
+                            <h4 class="card-title fw-bold">Portfólio Web Dinâmico</h4>
+                            <p class="card-text text-muted small flex-grow-1">
+                                Aplicação Client-side desenvolvida sem frameworks pesados, aplicando conceitos de Mobile First, integração de formulário com disparos automatizados de notificação e um painel de administração oculto com CRUD completo e injeção automática de 20 registros mockados.
+                            </p>
+                            <div class="mt-3 pt-3 border-top d-flex gap-2">
+                                <a href="https://github.com/Gabriel-Augusto33/portif-lio" target="_blank" class="btn btn-outline-dark btn-sm w-100">
+                                    <i class="bi bi-github"></i> Ver no GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Seção de Contato -->
+    <section id="contato">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow p-4 p-md-5">
+                        <div class="text-center mb-4">
+                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-3 py-2 mb-2">Fale Comigo</span>
+                            <h2 class="fw-bold">Vamos Construir Algo Juntos?</h2>
+                            <p class="text-muted">Envie sua mensagem. O formulário salva instantaneamente no armazenamento local e aciona a notificação de entrega.</p>
+                        </div>
+
+                        <div id="feedbackEnvio" class="d-none"></div>
+
+                        <form id="formContato">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contatoNome" class="form-label fw-semibold">Nome Completo *</label>
+                                    <input type="text" class="form-control" id="contatoNome" placeholder="Ex: Maria Oliveira" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contatoEmail" class="form-label fw-semibold">Seu E-mail *</label>
+                                    <input type="email" class="form-control" id="contatoEmail" placeholder="exemplo@empresa.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contatoAssunto" class="form-label fw-semibold">Assunto *</label>
+                                    <input type="text" class="form-control" id="contatoAssunto" placeholder="Ex: Oportunidade Frontend / Projeto" required>
+                                </div>
+                                <div class="col-12">
+                                    <label for="contatoMensagem" class="form-label fw-semibold">Mensagem *</label>
+                                    <textarea class="form-control" id="contatoMensagem" rows="4" placeholder="Escreva os detalhes da sua mensagem..." required></textarea>
+                                </div>
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-primary btn-lg px-5">
+                                        <i class="bi bi-send me-1"></i> Enviar Mensagem
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-1">Gabriel Augusto &copy; 2026 - Todos os direitos reservados.</p>
+            <p class="text-secondary small mb-2">Projeto submetido para a Canes Solution - Ensino Médio Técnico.</p>
+            
+            <!-- Botão Discreto de Acesso ao Painel Oculto -->
+            <div class="mt-3">
+                <a href="#" id="btnAcessoAdmin" class="admin-lock-btn text-muted small">
+                    <i class="bi bi-shield-lock"></i> Acesso Administrativo (Ctrl+Shift+A)
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL DO PAINEL ADMINISTRATIVO OCULTO (Etapa 02 - Armazenamento) -->
+    <div class="modal fade" id="modalAdmin" tabindex="-1" aria-labelledby="modalAdminLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header modal-admin-header">
+                    <h5 class="modal-title fw-bold" id="modalAdminLabel">
+                        <i class="bi bi-database-gear text-warning me-2"></i> Painel Administrativo de Mensagens (LocalStorage)
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="badge bg-dark fs-6" id="totalMensagensBadge">0 mensagens</span>
+                            <span class="text-muted small">(Armazenado em JSON no Client-Side)</span>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-secondary btn-sm" id="btnExportarJSON" title="Baixar JSON">
+                                <i class="bi bi-download"></i> Exportar JSON
+                            </button>
+                            <button class="btn btn-warning btn-sm" id="btnRestaurarMocks" title="Restaurar dados de teste">
+                                <i class="bi bi-arrow-counterclockwise"></i> Restaurar 20 Mocks
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Campo de Busca em Tempo Real -->
+                    <div class="mb-3">
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="bi bi-search"></i></span>
+                            <input type="text" id="filtroAdminBusca" class="form-control" placeholder="Filtrar por remetente, e-mail ou assunto...">
+                        </div>
+                    </div>
+
+                    <!-- Tabela CRUD -->
+                    <div class="table-responsive border rounded">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th># ID</th>
+                                    <th>Remetente</th>
+                                    <th>Assunto</th>
+                                    <th>Data / Hora</th>
+                                    <th>Status</th>
+                                    <th class="text-end">Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabelaMensagensCorpo">
+                                <!-- Preenchido dinamicamente via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="modal-footer bg-light">
+                    <small class="text-muted me-auto"><i class="bi bi-info-circle"></i> Os dados persistem no navegador utilizando LocalStorage.</small>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Fechar Painel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Lógica de LocalStorage e Interações -->
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
